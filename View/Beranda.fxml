@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="808.0" prefWidth="1550.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.BerandaController"> 
+   <center>
+      <AnchorPane prefHeight="2228.0" prefWidth="1554.0" BorderPane.alignment="CENTER">
+         <children>
+            <ScrollPane layoutX="3.0" layoutY="34.0" prefHeight="869.0" prefWidth="1551.0">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="2029.0" prefWidth="1551.0">
+                     <children>
+                        <Pane layoutX="-7.0" layoutY="55.0" prefHeight="539.0" prefWidth="1544.0" style="-fx-background-color: #EEEEEE; -fx-border-color: #A0937D; -fx-border-width: 1,8;">
+                           <children>
+                              <ImageView fitHeight="465.0" fitWidth="825.0" layoutX="734.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../example/Study.png" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="53.0" layoutY="185.0" prefHeight="39.0" prefWidth="836.0" text="Memelihara Pikiran, Memberikan Keberlanjutan, " textFill="#ae9670">
+                                 <font>
+                                    <Font name="Arial Bold" size="28.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="53.0" layoutY="211.0" prefHeight="53.0" prefWidth="921.0" text="dan Merangkul Kemampuan Beradaptasi dengan SIDARA" textFill="#a0937d">
+                                 <font>
+                                    <Font name="Arial Bold" size="28.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="53.0" layoutY="237.0" prefHeight="53.0" prefWidth="921.0" text="Kemampuan beradaptasi sangat penting bagi lembaga pendidikan, dunia usaha dan ">
+                                 <font>
+                                    <Font name="Arial" size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="53.0" layoutY="264.0" prefHeight="53.0" prefWidth="921.0" text="inisiatif masyarakat. Di dunia kita prinsip prinsip yang berdampak ini menumbuhkan">
+                                 <font>
+                                    <Font name="Arial" size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="53.0" layoutY="291.0" prefHeight="53.0" prefWidth="921.0" text="ketahanan,praktik keberlanjutan dan hal hal yang berkembang didalamnya.">
+                                 <font>
+                                    <Font name="Arial" size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="53.0" layoutY="318.0" prefHeight="53.0" prefWidth="921.0" text="Hal ini mempersiapkan para siswa untuk berkontribusi dalam perubahan global positif">
+                                 <font>
+                                    <Font name="Arial" size="21.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="62.0" layoutY="750.0" prefHeight="291.0" prefWidth="1246.0" style="-fx-background-color: #EEEEEE; -fx-border-color: #A0937D; -fx-border-radius: 20;">
+                           <children>
+                              <ImageView fitHeight="311.0" fitWidth="543.0" layoutX="-56.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../example/save%20earth.png" />
+                                 </image>
+                              </ImageView>
+                              <Text layoutX="413.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pengaruh Go Green Terhadap">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="413.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Masa Depan Bumi">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Text>
+                              <Button layoutX="424.0" layoutY="146.0" mnemonicParsing="false" onAction="#Bselengkapnya" prefHeight="47.0" prefWidth="185.0" text="Selengkapnya" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="65.0" layoutY="1097.0" prefHeight="291.0" prefWidth="1246.0" style="-fx-background-color: #EEEEEE; -fx-border-color: #A0937D; -fx-border-radius: 20;">
+                           <children>
+                              <ImageView fitHeight="311.0" fitWidth="543.0" layoutX="-50.0" layoutY="-10.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../example/Sampah.png" />
+                                 </image>
+                              </ImageView>
+                              <Text layoutX="424.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sistem Pengolahan Sampah">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="426.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="yang Tepat dan Efisisen">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Text>
+                              <Button layoutX="430.0" layoutY="146.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="192.0" text="Selengkapnya" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="247.0" layoutY="648.0" prefHeight="64.0" prefWidth="1060.0" style="-fx-background-color: #A0937D;" />
+                        <Pane layoutX="66.0" layoutY="1453.0" prefHeight="291.0" prefWidth="1246.0" style="-fx-background-color: #EEEEEE; -fx-border-color: #A0937D; -fx-border-radius: 20;">
+                           <children>
+                              <Text layoutX="437.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Penghematan Air Untuk ">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="436.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Keberlangsungan Hidup ">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Text>
+                              <ImageView fitHeight="319.0" fitWidth="571.0" layoutX="-51.0" layoutY="-20.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../example/waterr.png" />
+                                 </image>
+                              </ImageView>
+                              <Button layoutX="436.0" layoutY="145.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="190.0" text="Selengkapnya" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="-24.0" layoutY="1852.0" prefHeight="182.0" prefWidth="1601.0" style="-fx-background-color: #A0937D;" />
+                        <Pane layoutX="233.0" layoutY="642.0" prefHeight="54.0" prefWidth="1064.0" style="-fx-background-color: black;" />
+                        <Button layoutX="240.0" layoutY="649.0" mnemonicParsing="false" onAction="#Btop" prefHeight="22.0" prefWidth="1050.0" text="Top Materi">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font></Button>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+   </center>
+   <top>
+      <HBox prefHeight="86.0" prefWidth="1561.0" style="-fx-background-color: #A0937D;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="86.0" fitWidth="93.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../example/logo%20.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="80.0" />
+               </HBox.margin>
+            </ImageView>
+            <Label prefHeight="78.0" prefWidth="88.0" text="SIDARA" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="22.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Label>
+            <Pane prefHeight="106.0" prefWidth="230.0" />
+            <Button mnemonicParsing="false" onAction="#Beranda" style="-fx-background-color: transparent;" text="Beranda" textFill="WHITE">
+               <HBox.margin>
+                  <Insets left="20.0" right="50.0" top="30.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#Materi" style="-fx-background-color: transparent;" text="Materi" textFill="WHITE">
+               <HBox.margin>
+                  <Insets right="50.0" top="30.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#Karya" style="-fx-background-color: tra transparentsparant;" text="Karya" textFill="WHITE">
+               <HBox.margin>
+                  <Insets right="50.0" top="30.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#TentangKami" style="-fx-background-color: tr transparentnsparant;" text="Tentang Kami" textFill="WHITE">
+               <HBox.margin>
+                  <Insets right="40.0" top="30.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#Notifikasi" style="-fx-background-color: tra transparentsparant;" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="80.0" fitWidth="120.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../example/lonceng.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <HBox.margin>
+                  <Insets left="50.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#Profile" style="-fx-background-color: tran transparentparant;" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="80.0" fitWidth="120.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../example/Prrofile.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </HBox>
+   </top>
+</BorderPane>

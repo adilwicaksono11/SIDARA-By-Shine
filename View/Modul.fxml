@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="808.0" prefWidth="1550.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ModulController">
+   <center>
+      <AnchorPane prefHeight="714.0" prefWidth="1552.0" BorderPane.alignment="CENTER">
+         <children>
+            <ScrollPane layoutX="1.0" layoutY="88.0" prefHeight="740.0" prefWidth="1550.0">
+               <content>
+                  <AnchorPane prefHeight="808.0" prefWidth="1550.0" style="-fx-background-color: white;" stylesheets="@../Css/Style.css">
+                     <children>
+                        <Pane prefHeight="70.0" prefWidth="1550.0" style="-fx-background-color: tan;">
+                           <children>
+                              <Label layoutX="681.0" layoutY="25.0" text="MODUL INTERAKTIF">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children></Pane>
+                        <Button layoutX="99.0" layoutY="116.0" mnemonicParsing="false" onAction="#Bmodul1" style="-fx-background-color: white;" text="MODUL 1: Pengantar Pembelajaran Berkelanjutan">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="43.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Document.png" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="106.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tujuan dari Modul Pembelajaran Berkelanjutan adalah memperkenalkan konsep dasar pembelajaran berkelanjutan. Aktifitas yang dilakukan meliputi Diskusi kelompok, Pengantar, dan kuis" wrappingWidth="549.3367462158203" />
+                        <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="43.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Document.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="99.0" layoutY="195.0" mnemonicParsing="false" style="-fx-background-color: white;" text="MODUL 2: Integrasi Pembelajaran Berkelanjutan dalam Kurikulum">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Line endX="335.60003662109375" endY="1.52587890625E-5" layoutX="207.0" layoutY="224.0" startX="-100.0" />
+                        <Line endX="231.00006103515625" endY="-1.52587890625E-5" layoutX="207.0" layoutY="145.0" startX="-100.0" />
+                        <Text layoutX="106.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tujuan dari Modul Integrasi Pembelajaran Berkelanjutan dalam Kurikulum adalah membantu Tenaga Pendidik mengintegrasikan prinsip-prinsip pembelajaran berkelanjutan ke dalam kurikulum yang ada. Aktivitas yang dilakukan meliputi Studi Kasus, Workshop Perancangan kurikulum, dan Latihan praktis" wrappingWidth="549.3367462158203" />
+                        <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="43.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Document.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="99.0" layoutY="293.0" mnemonicParsing="false" style="-fx-background-color: white;" text="MODUL 3: Metode Pengajaran Berkelanjutan">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Line endX="199.40005493164062" layoutX="208.0" layoutY="322.0" startX="-100.0" />
+                        <Text layoutX="106.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tujuan dari Modul Metode Pengajaran Berkelanjutan adalah menyediakan metode  pengajaran yang mendukung pembelajaran berkelanjutan. Aktivitas yang dilakukan meliputi Simulasi, Proyek Kolaboratif, dan Penilaian Pengajaran" wrappingWidth="549.3367462158203" />
+                        <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="43.0" layoutY="413.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Document.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="99.0" layoutY="398.0" mnemonicParsing="false" style="-fx-background-color: white;" text="MODUL 4: Evaluasi dan Penilaian dalam Pembelajaran Berkelanjutan">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Line endX="351.60003662109375" endY="6.103515625E-5" layoutX="207.0" layoutY="427.0" startX="-100.0" />
+                        <Text layoutX="106.0" layoutY="447.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tujuan dari Modul Evaluasi dan Penilaian dalam Pembelajaran Berkelanjutan adalah Mempelajari metode evaluasi dan penilaian yang mendukung pembelajaran berkelanjutan. Aktivitas yang dilakukan meliputi analisis kasus penilaian dan latihan evaluasi" wrappingWidth="549.3367462158203" />
+                        <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="43.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Document.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="99.0" layoutY="505.0" mnemonicParsing="false" style="-fx-background-color: white;" text="MODUL 5: Pembelajaran Berbasis Proyek untuk Keberlanjutan">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Line endX="310.60003662109375" endY="6.103515625E-5" layoutX="208.0" layoutY="534.0" startX="-100.0" />
+                        <Text layoutX="106.0" layoutY="554.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tujuan dari Modul Pembelajaran Berbasis Proyek untuk Keberlanjutan adalah mengembangkan keterampilan dalam merancang dan mengimplementasikan pembelajaran berbasis proyek yang fokus pada keberlanjutan. Aktivitas yang dilakukan meliputi Perancangan Proyek, Presentasi Proyek, dan Refleksi Proyek" wrappingWidth="549.3367462158203" />
+                        <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="786.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Document.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="841.0" layoutY="116.0" mnemonicParsing="false" style="-fx-background-color: white;" text="MODUL 6: Membangun Keadaran Lingkungan melalui Pembelajaran">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Line endX="350.4000244140625" layoutX="949.0" layoutY="145.0" startX="-100.0" />
+                        <Text layoutX="848.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tujuan dari Modul Membangun Kesadaran Lingkungan melalui Pembelajaran adalah meningkatkan keadaran tentang isu-isu lingkungan. Aktivitas yang dilakukan meliputi kegiatan lapangan dan proyek penelitian" wrappingWidth="549.3367462158203" />
+                        <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="786.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Document.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="845.0" layoutY="307.0" mnemonicParsing="false" style="-fx-background-color: white;" text="MODUL 8: Pendidikan Global dan Keberlanjutan">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Line endX="359.800048828125" endY="-1.52587890625E-5" layoutX="950.0" layoutY="239.0" startX="-100.0" />
+                        <Text layoutX="848.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tujuan dari Modul Pendidikan Global dan Keberlanjutan adalah mengintegrasikan perspektif global dalam pembelajaran berkelanjutan. Aktivitas yang dilakukan meliputi diskusi mengenai isu-isu global yang mendukung keberlanjutan dan proyek pengetahuan global" wrappingWidth="549.3367462158203" />
+                        <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="786.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Document.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="841.0" layoutY="208.0" mnemonicParsing="false" style="-fx-background-color: white;" text="MODUL 7: Penggunaan Teknologi dalam Pembelajaran Berkelanjutan">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Text layoutX="848.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tujuan dari Modul Penggunaan Teknologi dalam Pembelajaran Berkelanjutan adalah Mengajarkan cara-cara memanfaatkan teknologi untuk mendukung pembelajaran berkelanjutan. Aktifitas yang dilakukan adalah pelatihan menggunakan alat teknologi dan proyek teknologi" wrappingWidth="549.3367462158203" />
+                        <Line endX="228.0001220703125" layoutX="949.0" layoutY="336.0" startX="-100.0" />
+                        <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="786.0" layoutY="426.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Document.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="841.0" layoutY="413.0" mnemonicParsing="false" style="-fx-background-color: white;" text="MODUL 9: Pembelajaran Sosial dan Emosional dalam Konteks Keberlanjutan">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Line endX="404.0" endY="6.103515625E-5" layoutX="949.0" layoutY="442.0" startX="-100.0" />
+                        <Text layoutX="848.0" layoutY="460.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tujuan dari Modul Pembelajaran Sosial dan Emosional dalam Konteks Keberlanjutan adalah mengembangkan keterampilan sosial dan emosional dalam mendukung keberlanjutan. Aktivitas yang dilakukan refleksi diri dan kegiatan kelompok" wrappingWidth="549.3367462158203" />
+                        <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="786.0" layoutY="528.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Document.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="841.0" layoutY="513.0" mnemonicParsing="false" style="-fx-background-color: white;" text="MODUL 10: Mengatasi Tantangan dalam Pembelajaran Berkelanjutan">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Line endX="359.2000732421875" endY="-1.52587890625E-5" layoutX="949.0" layoutY="542.0" startX="-100.0" />
+                        <Text layoutX="848.0" layoutY="562.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tujuan dari Modul Mengatasi Tantangan dalam Pembelajaran Berkelanjutan adalah membekali tenaga pendidik dengan strategi untuk mengatasi tantangan dalam mengimplementasikan pembelajaran berkelanjutan. Aktivitas yang dilakukan diskusi tantangan dan studi kasus" wrappingWidth="549.3367462158203" />
+                     </children>
+                  </AnchorPane>
+               </content></ScrollPane>
+            <Button layoutX="723.0" layoutY="46.0" mnemonicParsing="false" onAction="#Bback" prefHeight="41.0" prefWidth="106.0" style="-fx-background-color: red;" text="Kembali" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

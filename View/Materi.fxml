@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="912.0" prefWidth="1550.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MateriController">
+   <center>
+      <AnchorPane prefHeight="886.0" prefWidth="1552.0" BorderPane.alignment="CENTER">
+         <children>
+            <ScrollPane layoutX="1.0" layoutY="46.0" prefHeight="824.0" prefWidth="1550.0">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="838.0" prefWidth="1550.0" style="-fx-background-color: white;">
+                     <children>
+                        <ImageView fitHeight="185.0" fitWidth="240.0" layoutX="63.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../example/Sustainable.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="63.0" layoutY="278.0" style="-fx-background-color: white;" text="Temukan berbagai Modul Interatif, Rencana Pembelajaran, dan Studi Kasus Yang Dapat Membantu Memahami Konsep-Konsep Penting dalam Pembelajaran Berkelanjutan!!" textFill="WHITE">
+                           <font>
+                              <Font name="Times New Roman Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="190.0" fitWidth="240.0" layoutX="149.0" layoutY="348.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../example/Modul.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="190.0" fitWidth="250.0" layoutX="646.0" layoutY="359.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../example/Studi%20Kasus.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="190.0" fitWidth="250.0" layoutX="1124.0" layoutY="359.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../example/Rencana%20Pembelajaran.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="183.0" layoutY="635.0" mnemonicParsing="false" onAction="#Bmodul" style="-fx-background-color: white;" text="Modul Interaktif">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="693.0" layoutY="635.0" mnemonicParsing="false" onAction="#Bstudikasus" style="-fx-background-color: white;" text="Studi Kasus">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="1135.0" layoutY="635.0" mnemonicParsing="false" onAction="#BRencana" style="-fx-background-color: white;" text="Rencana Pembelajaran">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Label layoutX="339.0" layoutY="72.0" text="Pembelajaran berkelanjutan merupakan pendekatan pendidikan yang berfokus pada pengembangan" />
+                        <Label layoutX="339.0" layoutY="90.0" text="keterampilan dan pengetahuan yang relevan dengan menekankan pada keberlanjutan lingkungan, sosial, dan ekonomi." />
+                        <Label layoutX="335.0" layoutY="107.0" text=" Hal ini mencakup prinsip-prinsip keberlanjutan ke dalam kurikulum,metode pengajaran yang mendorong pemikiran kritis dan kreatif" />
+                        <Label layoutX="339.0" layoutY="123.0" text="Pembelajaran berkelanjutan merupakan pendekatan pendidikan yang berfokus pada pengembangan" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+   </center>
+   <top>
+      <HBox prefHeight="86.0" prefWidth="1561.0" style="-fx-background-color: #A0937D;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="86.0" fitWidth="93.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../example/logo%20.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="80.0" />
+               </HBox.margin>
+            </ImageView>
+            <Label prefHeight="78.0" prefWidth="88.0" text="SIDARA" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="22.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Label>
+            <Pane prefHeight="106.0" prefWidth="230.0" />
+            <Button mnemonicParsing="false" onAction="#Beranda" style="-fx-background-color: transparent;" text="Beranda" textFill="WHITE">
+               <HBox.margin>
+                  <Insets left="20.0" right="50.0" top="30.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#Materi" style="-fx-background-color: transparent;" text="Materi" textFill="WHITE">
+               <HBox.margin>
+                  <Insets right="50.0" top="30.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#Karya" style="-fx-background-color: transparent;" text="Karya" textFill="WHITE">
+               <HBox.margin>
+                  <Insets right="50.0" top="30.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#TentangKami" style="-fx-background-color: transparent;" text="Tentang Kami" textFill="WHITE">
+               <HBox.margin>
+                  <Insets right="40.0" top="30.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#Notifikasi" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="80.0" fitWidth="120.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../example/lonceng.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <HBox.margin>
+                  <Insets left="50.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#Profile" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="80.0" fitWidth="120.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../example/Prrofile.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </HBox>
+   </top>
+</BorderPane>

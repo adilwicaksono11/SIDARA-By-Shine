@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.IsimodulController">
+   <children>
+      <ScrollPane layoutX="-3.0" layoutY="94.0" prefHeight="767.0" prefWidth="1550.0">
+         <content>
+            <AnchorPane prefHeight="766.0" prefWidth="1550.0" style="-fx-background-color: white;">
+               <children>
+                  <Label layoutX="22.0" layoutY="81.0" text="A. PENDAHULUAN">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Text layoutX="22.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selamat datang di modul &quot;Pengantar Pembelajaran Berkelanjutan&quot;. Modul ini dirancang untuk memberikan pemahaman dasar tentang pembelajaran berkelanjutan, prinsip-prinsipnya, dan pentingnya dalam pemdidikan saat ini." wrappingWidth="690.9367790222168" />
+                  <Label layoutX="22.0" layoutY="141.0" text="B. TUJUAN PEMBELAJARAN">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Text layoutX="22.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Setelah menyelesaikan modul ini, diharapkan mampu:" wrappingWidth="690.9367790222168" />
+                  <Text layoutX="22.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Memahami konsep dasar pembelajaran berkelanjutan." wrappingWidth="370.13679122924805" />
+                  <Text layoutX="22.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Mengidentifikasi prinsip-prinsip utama pembelajaran berkelanjutan." wrappingWidth="420.5367546081543" />
+                  <Text layoutX="22.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Menjelaskan pentingnya pembelajaran berkelanjutan dalam konteks pendidikan modern." wrappingWidth="501.3368034362793" />
+                  <Text layoutX="22.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4. Menerapkan prinsip-prinsip pembelajaran berkelanjutan dalam kegiatan pembelajaran." wrappingWidth="524.5367546081543" />
+                  <Label layoutX="22.0" layoutY="252.0" text="C. MATERI PEMBELAJARAN">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Text layoutX="22.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Definisi dan Konsep Dasar" wrappingWidth="293.3367118835449">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="35.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pembelajaran Berkelanjutan: Pendekatan pendidikan yang bertujuan mengembangkan keterampilan, pengetahuan, dan sikap yang diperlukan untuk menghadapi tantangan keberlanjutan global." wrappingWidth="652.5367546081543" />
+                  <Text layoutX="35.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aspek-Aspek Pembelajaran Berkelanjutan: Lingkungan, ekonomi, dan sosial." wrappingWidth="652.5367546081543" />
+                  <Text layoutX="22.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Prinsip-Prinsip Pembelajaran Berkelanjutan" wrappingWidth="293.3367118835449">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="35.0" layoutY="376.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Inklusivitas: Semua orang mendapatkan kesempatan yang sama untuk memahami isu-isu keberlanjutan." wrappingWidth="652.5367546081543" />
+                  <Text layoutX="35.0" layoutY="393.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Integrasi Lintas Disiplin: Menggabungkan berbagai disiplin ilmu untuk memahami isu-isu keberlanjutan." wrappingWidth="609.336742401123" />
+                  <Text layoutX="35.0" layoutY="409.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Partisipasi Aktif: Mendorong semua orang untuk berperan aktif dalam proses belajar." wrappingWidth="472.5367546081543" />
+                  <Text layoutX="36.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4. Refleksi Kritis: Mengembangkan kemampuan berpikir kritis dan refleksi tentang isu-isu keberlanjutan." wrappingWidth="558.1367301940918" />
+                  <Text layoutX="22.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Pentingnya Pembelajaran Berkelanjutan" wrappingWidth="293.3367118835449">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="35.0" layoutY="462.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Kesadaran Global: Membantu memahami isu-isu global seperti perubahan iklim, keberlanjutan ekonomi, dan kesejahteraan sosial." wrappingWidth="652.5367546081543" />
+                  <Text layoutX="35.0" layoutY="495.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Persiapan Masa Depan: Mempersiapkan generasi muda untuk menghadapi tantangan masa depan." wrappingWidth="652.5367546081543" />
+                  <Text layoutX="35.0" layoutY="511.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Perubahan Positif: Mendorong perubahan positif dalam masyarakat melalui pendidikan yang berfokus pada keberlanjutan." wrappingWidth="652.5367546081543" />
+                  <Label layoutX="23.0" layoutY="540.0" text="D. AKTIVITAS PEMBELAJARAN">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Text layoutX="36.0" layoutY="574.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Presentasi dan Diskusi Kelas" wrappingWidth="293.3367118835449">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="51.0" layoutY="590.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Presentasi: Menjelaskan konsep dasar dan prinsip-prinsip pembelajaran berkelanjutan." wrappingWidth="487.7367057800293" />
+                  <Text layoutX="51.0" layoutY="607.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Diskusi Kelas: Diskusi untuk mengekspolasi pemahaman mereka dan mengaitkan konsep dengan pengalaman mereka." wrappingWidth="487.7367057800293" />
+                  <Text layoutX="871.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Studi Kasus" wrappingWidth="293.3367118835449">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="887.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Studi Kasus 1: Sekolah Hijau di Finlandia" wrappingWidth="293.3367118835449">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="887.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Deskripsi: Sebuah sekolah yang menerapkan prinsip keberlanjutan dalam setiap aspek operasinalnya." wrappingWidth="487.7367057800293" />
+                  <Text layoutX="887.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Analisis: Apa saja langkah-langkah yang diambil sekolah ini? Bagaimana hasilnya?" wrappingWidth="487.7367057800293" />
+                  <Text layoutX="887.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Diskusi Kelompok: Bekerja dalam kelompok untuk menganalisis studi kasus dan menyajikan temuan mereka" wrappingWidth="487.7367057800293" />
+                  <Label layoutX="853.0" layoutY="262.0" text="D. AKTIVITAS PEMBELAJARAN">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Text layoutX="871.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Aktivitas Interaktif" wrappingWidth="293.3367118835449">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="887.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kuis Pengantar: Kuis singkat untuk mengukur pemahaman awal siswa tentang konsep-konsep dasar." wrappingWidth="487.7367057800293" />
+                  <Text layoutX="871.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Kuis Akhir Modul" wrappingWidth="293.3367118835449">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="887.0" layoutY="311.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pertanyaan Pilihan Ganda: Mengukur pemahaman siswa tentang konsep dan prinsip dasar." wrappingWidth="487.7367057800293" />
+                  <Text layoutX="887.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pertanyaan Esai Singkat: Menilai kemampuan menganalisis dan menerapkan konsep pembelajaran berkelanjutan." wrappingWidth="487.7367057800293" />
+                  <Text layoutX="871.0" layoutY="366.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Proyek Mini" wrappingWidth="293.3367118835449">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="887.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tugas: Mengidentifikasi masalah keberlanjutan lokal dan mengusulkan solusi yang inovatif dan berkelanjutan." wrappingWidth="487.7367057800293" />
+                  <Text layoutX="887.0" layoutY="418.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Presentasi: Mempresentasikan proyek mereka yang dibuat. Penilaian berdasarkan kreativitas, kelayakan, dan pemahaman konsep" wrappingWidth="487.7367057800293" />
+                  <Pane prefHeight="57.0" prefWidth="1550.0" style="-fx-background-color: tan; -fx-border-color: brown;">
+                     <children>
+                        <Label layoutX="521.0" layoutY="19.0" text="MODUL PENGANTAR PEMBELAJARAN BERKELANJUTAN">
+                           <font>
+                              <Font name="Times New Roman Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <Button layoutX="684.0" layoutY="53.0" mnemonicParsing="false" onAction="#Bback" prefHeight="41.0" prefWidth="106.0" style="-fx-background-color: red;" text="Kembali" textFill="WHITE" />
+   </children>
+</AnchorPane>

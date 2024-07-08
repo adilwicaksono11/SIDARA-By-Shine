@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.RegistrasiController">
+   <children>
+      <ImageView fitHeight="1152.0" fitWidth="2545.0" layoutX="-484.0" layoutY="-129.0" pickOnBounds="true">
+         <image>
+            <Image url="@../example/batu.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="506.0" layoutY="35.0" prefHeight="730.0" prefWidth="546.0" style="-fx-background-radius: 70; -fx-background-color: white; -fx-border-radius: 70; -fx-border-color: black; -fx-border-width: 2;" styleClass="white-bg" stylesheets="@../Css/Style.css">
+         <children>
+            <ImageView fitHeight="178.0" fitWidth="310.0" layoutX="147.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../example/Regis.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="204.0" layoutY="233.0" text="Pendaftaran Akun">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Label>
+            <Pane layoutX="147.0" layoutY="299.0" prefHeight="270.0" prefWidth="270.0" style="-fx-background-color: white; -fx-border-color: tan; -fx-border-radius: 20; -fx-background-radius: 20; -fx-border-width: 4,5;">
+               <children>
+                  <VBox layoutX="18.0" layoutY="55.0" prefHeight="205.0" prefWidth="227.0" spacing="30.0">
+                     <children>
+                        <TextField fx:id="DaftarEmail" prefHeight="32.0" prefWidth="231.0" promptText="Alamat Email" style="-fx-background-color: #EEEEEE; -fx-background-radius: 20; -fx-border-color: TAN; -fx-border-radius: 20; -fx-border-width: 2;">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </TextField>
+                        <TextField fx:id="DaftarUsername" prefHeight="32.0" prefWidth="209.0" promptText="Nama Pengguna" style="-fx-background-color: #EEEEEE; -fx-background-radius: 20; -fx-border-color: TAN; -fx-border-radius: 20; -fx-border-width: 2;">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </TextField>
+                        <TextField fx:id="DaftarKataSandi" prefHeight="32.0" prefWidth="209.0" promptText="Kata Sandi" style="-fx-background-color: #EEEEEE; -fx-background-radius: 20; -fx-border-color: TAN; -fx-border-radius: 20; -fx-border-width: 2;">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </TextField>
+                     </children>
+                  </VBox>
+               </children>
+            </Pane>
+            <Label layoutX="194.0" layoutY="254.0" text="Selesaikan proses daftar dahulu!">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Label>
+            <Button fx:id="ButtonDaftar" layoutX="242.0" layoutY="610.0" mnemonicParsing="false" onAction="#ButtonDaftar" prefHeight="32.0" prefWidth="81.0" style="-fx-background-color: #A0937D;" styleClass="btn" text="Daftar" textFill="WHITE" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

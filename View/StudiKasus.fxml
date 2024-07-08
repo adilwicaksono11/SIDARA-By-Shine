@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1119.0" prefWidth="1550.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.StudiKasusController">
+   <children>
+      <ScrollPane layoutY="86.0" prefHeight="1037.0" prefWidth="1550.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1040.0" prefWidth="1550.0">
+               <children>
+                  <Pane layoutX="22.0" layoutY="235.0" prefHeight="118.0" prefWidth="778.0">
+                     <children>
+                        <ImageView fitHeight="86.0" fitWidth="106.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../example/pngtree-vector-documents-icon-png-image_3876677.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="86.0" layoutY="14.0" prefHeight="28.0" prefWidth="772.0" text="Studi Kasus tentang implementasi pertanian berkelanjutan di tanah kering">
+                           <font>
+                              <Font name="Times New Roman Bold" size="24.0" />
+                           </font>
+                        </Label>
+                        <Text layoutX="95.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Studi Kasus ini menguji kita tentang seberapa paham dan mengerti kita akan implementasi pertanian berkelanjutan di daerah yang memiliki tanah yang kering, studi kasus ini di tujukan untuk membantu petani petani tetap dapat berkebun walaupun memiliki tekstur tanah yang kering." wrappingWidth="533.37158203125" />
+                     </children>
+                  </Pane>
+                  <Pane layoutX="22.0" layoutY="100.0" prefHeight="128.0" prefWidth="778.0">
+                     <children>
+                        <Pane layoutX="-1.0" layoutY="10.0" prefHeight="114.0" prefWidth="174.0">
+                           <children>
+                              <ImageView fitHeight="86.0" fitWidth="127.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../example/pngtree-vector-documents-icon-png-image_3876677.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="86.0" layoutY="14.0" prefHeight="28.0" prefWidth="764.0" text="Studi Kasus perikanan daerah sekitar">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="24.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Text layoutX="97.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Studi Kasus ini menguji kita tentang seberapa paham kita tentang pemamfaatan plastik untuk bantu daya jual daerah terpencil, studi kasus ini di harapkan dapat membantu masyarakat di daerah terpencil meningkatkan daya jual yang masih minin." wrappingWidth="531.7716064453125" />
+                     </children>
+                  </Pane>
+                  <Pane layoutX="22.0" layoutY="373.0" prefHeight="120.0" prefWidth="778.0">
+                     <children>
+                        <Label layoutX="90.0" layoutY="14.0" prefHeight="28.0" prefWidth="788.0" text="Studi Kasus pemamfaatan air untuk bersih untuk PLTA di daerah terpencil">
+                           <font>
+                              <Font name="Times New Roman Bold" size="24.0" />
+                           </font>
+                        </Label>
+                        <Text layoutX="89.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Studi Kasus ini menguji kita tentang seberapa paham kita untuk memamfaatkan air untuk PLTA di daerah terpencil,studi kasus ini di tujukan untuk membantu masyarakat yang masih belum memiliki akses listrik yang memadai sehingga dapat menggunakan sumber daya alam yang ada." wrappingWidth="528.0382690429688" />
+                        <ImageView fitHeight="86.0" fitWidth="84.0" layoutX="6.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../example/pngtree-vector-documents-icon-png-image_3876677.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <ImageView fitHeight="86.0" fitWidth="84.0" layoutX="28.0" layoutY="506.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../example/pngtree-vector-documents-icon-png-image_3876677.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="112.0" layoutY="520.0" text="Studi kasus pemamfaatana Bakau untuk pencegahan banjir">
+                     <font>
+                        <Font name="Times New Roman Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Text layoutX="123.0" layoutY="561.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Studi Kasus ini menguji kita tentang pemamfaatan pohon bakau untuk bantu mencegah bencana banjir,studi kasus ini di tujukan untuk membantu masyarakat yang tinggal di daerah yang rawan banjir untuk mengantisipasi bencana banjir." wrappingWidth="530.1716003417969" />
+                  <ImageView fitHeight="86.0" fitWidth="84.0" layoutX="25.0" layoutY="665.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../example/pngtree-vector-documents-icon-png-image_3876677.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="112.0" layoutY="671.0" text="Studi kasus tentang seberapa berpengaruhnya kebersihan air terhadap keberlanjutan sektor perikanan di indonesia">
+                     <font>
+                        <Font name="Times New Roman Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Text layoutX="123.0" layoutY="714.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Studi Kasus ini menguji kita tenntang seberapa paham bahwa berapa besar pengaruh kebersihan air terhadapa keberlanjutan sektor perikanan di indonesia,di harapkan dengan adanya studi kasus ini masyarakat dapat lebih peduli terhadap kebersihan air untuk masa depan sektor perikanan di indonesia." wrappingWidth="546.1716003417969" />
+                  <Pane layoutX="-15.0" prefHeight="70.0" prefWidth="1580.0" style="-fx-background-color: TAN; -fx-border-color: BLACK;">
+                     <children>
+                        <Label layoutX="647.0" layoutY="18.0" text="Studi Kasus">
+                           <font>
+                              <Font name="Times New Roman Bold" size="28.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Button layoutX="800.0" layoutY="164.0" mnemonicParsing="false" onAction="#Ceksk1" style="-fx-background-color: tan;" text="Cek" />
+                  <Button layoutX="800.0" layoutY="426.0" mnemonicParsing="false" style="-fx-background-color: tan;" text="Cek" />
+                  <Button layoutX="800.0" layoutY="294.0" mnemonicParsing="false" onAction="#Ceksk2" style="-fx-background-color: tan;" text="Cek" />
+                  <Button layoutX="800.0" layoutY="548.0" mnemonicParsing="false" style="-fx-background-color: tan;" text="Cek" />
+                  <Button layoutX="800.0" layoutY="720.0" mnemonicParsing="false" style="-fx-background-color: tan;" text="Cek" />
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <Button layoutX="640.0" layoutY="44.0" mnemonicParsing="false" onAction="#Bback" prefHeight="41.0" prefWidth="106.0" style="-fx-background-color: red;" text="Kembali" textFill="WHITE" />
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>

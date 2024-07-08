@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1106.0" prefWidth="1550.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.StudiPerikananController">
+   <children>
+      <ScrollPane layoutY="86.0" prefHeight="1037.0" prefWidth="1550.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1040.0" prefWidth="1550.0">
+               <children>
+                  <Pane layoutX="-10.0" prefHeight="70.0" prefWidth="1570.0" style="-fx-background-color: TAN; -fx-border-color: BLACK;">
+                     <children>
+                        <Label layoutX="647.0" layoutY="18.0" text="Studi Kasus">
+                           <font>
+                              <Font name="Times New Roman Bold" size="28.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Label layoutX="49.0" layoutY="139.0" prefHeight="23.0" prefWidth="842.0" text="1. Apa yang bisa menjadi sumber utama pencemaran air yang mempengaruhi sektor perikanan?">
+                     <font>
+                        <Font name="Times New Roman Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <RadioButton layoutX="71.0" layoutY="175.0" mnemonicParsing="false" text="Emisi kendaraan" />
+                  <RadioButton layoutX="71.0" layoutY="200.0" mnemonicParsing="false" text="Limbah industri dan pertanian" />
+                  <RadioButton layoutX="71.0" layoutY="226.0" mnemonicParsing="false" text="Penggunaan pupuk organik" />
+                  <RadioButton layoutX="71.0" layoutY="253.0" mnemonicParsing="false" text="Erosi tanah" />
+                  <Label layoutX="77.0" layoutY="584.0" prefHeight="23.0" prefWidth="622.0" text="4. Apa dampak jangka panjang dari pencemaran air terhadap populasi ikan?">
+                     <font>
+                        <Font name="Times New Roman Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <RadioButton layoutX="77.0" layoutY="319.0" mnemonicParsing="false" text="Meningkatkan pertumbuhan ikan" />
+                  <RadioButton layoutX="78.0" layoutY="345.0" mnemonicParsing="false" text="Menyebabkan penyakit dan kematian ikan" />
+                  <RadioButton layoutX="78.0" layoutY="375.0" mnemonicParsing="false" text=" Mempercepat reproduksi ikan" />
+                  <RadioButton layoutX="79.0" layoutY="403.0" mnemonicParsing="false" text="Meningkatkan kualitas daging ikan" />
+                  <Label layoutX="54.0" layoutY="283.0" prefHeight="23.0" prefWidth="543.0" text="2. Bagaimana kualitas air yang buruk mempengaruhi ikan?">
+                     <font>
+                        <Font name="Times New Roman Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <RadioButton layoutX="79.0" layoutY="493.0" mnemonicParsing="false" text="Pengamatan visual" />
+                  <RadioButton layoutX="79.0" layoutY="521.0" mnemonicParsing="false" text="Pengukuran suhu air" />
+                  <RadioButton layoutX="79.0" layoutY="468.0" mnemonicParsing="false" text="Pengujian kimia air secara berkala" />
+                  <RadioButton layoutX="79.0" layoutY="547.0" mnemonicParsing="false" text="Penghitungan jumlah ikan" />
+                  <Label layoutX="69.0" layoutY="434.0" prefHeight="23.0" prefWidth="662.0" text="3. Apa metode yang paling efektif untuk memantau kebersihan air di area perikanan?">
+                     <font>
+                        <Font name="Times New Roman Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <RadioButton layoutX="77.0" layoutY="619.0" mnemonicParsing="false" text="Peningkatan populasi ikan" />
+                  <RadioButton layoutX="77.0" layoutY="647.0" mnemonicParsing="false" text=" Penurunan keanekaragaman hayati" />
+                  <RadioButton layoutX="76.0" layoutY="678.0" mnemonicParsing="false" text="Meningkatnya kesehatan ikan" />
+                  <RadioButton layoutX="77.0" layoutY="706.0" mnemonicParsing="false" text="Meningkatnya ukuran ikan" />
+                  <Label layoutX="79.0" layoutY="744.0" prefHeight="23.0" prefWidth="723.0" text="5. Bagaimana penggunaan pestisida dan herbisida di lahan pertanian dapat mempengaruhi sektor perikanan?">
+                     <font>
+                        <Font name="Times New Roman Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <RadioButton layoutX="77.0" layoutY="775.0" mnemonicParsing="false" text="Meningkatkan kualitas air" />
+                  <RadioButton layoutX="78.0" layoutY="807.0" mnemonicParsing="false" text=" Mengurangi populasi ikan melalui pencemaran" />
+                  <RadioButton layoutX="77.0" layoutY="842.0" mnemonicParsing="false" text="Meningkatkan produksi ikan" />
+                  <RadioButton layoutX="77.0" layoutY="872.0" mnemonicParsing="false" text="Tidak memiliki efek pada air" />
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <Button layoutX="680.0" layoutY="44.0" mnemonicParsing="false" onAction="#Bback" prefHeight="41.0" prefWidth="106.0" style="-fx-background-color: red;" text="Kembali" textFill="WHITE" />
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>

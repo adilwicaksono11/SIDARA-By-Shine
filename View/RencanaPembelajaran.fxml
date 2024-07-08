@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="809.0" prefWidth="1556.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.RencanaPembelajaranController">
+   <children>
+      <ScrollPane layoutX="-6.0" layoutY="93.0" prefHeight="742.0" prefWidth="1574.0">
+         <content>
+            <AnchorPane prefHeight="1296.0" prefWidth="1459.0">
+               <children>
+                  <Pane layoutY="52.0" prefHeight="70.0" prefWidth="1571.0" style="-fx-background-color: tan; -fx-border-color: #A0937D;">
+                     <children>
+                        <Label layoutX="598.0" layoutY="20.0">
+                           <font>
+                              <Font name="Times New Roman Bold" size="28.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="640.0" layoutY="21.0" text="Rencana Pembelajaran">
+                           <font>
+                              <Font name="Times New Roman Bold" size="28.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="-4.0" layoutY="224.0" prefHeight="258.0" prefWidth="1574.0" style="-fx-background-color: #EEEEEE; -fx-border-color: #A0937D;">
+                     <children>
+                        <ImageView fitHeight="185.0" fitWidth="333.0" layoutX="78.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../example/dokumen.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="185.0" fitWidth="333.0" layoutX="970.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../example/dokumen.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="185.0" fitWidth="333.0" layoutX="523.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../example/dokumen.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="325.0" layoutY="44.0" text="Pengelolaan Sampah">
+                           <font>
+                              <Font name="Times New Roman Bold" size="28.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="1212.0" layoutY="44.0" text="Penghijauan Lingkungan">
+                           <font>
+                              <Font name="Times New Roman Bold" size="28.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="773.0" layoutY="44.0" text="Budidaya Mangrove">
+                           <font>
+                              <Font name="Times New Roman Bold" size="28.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="325.0" layoutY="170.0" mnemonicParsing="false" onAction="#Bcek1" text="Cek" />
+                        <Button layoutX="773.0" layoutY="170.0" mnemonicParsing="false" onAction="#Bcek2" text="Cek" />
+                        <Button layoutX="1222.0" layoutY="170.0" mnemonicParsing="false" onAction="#Bcek3" text="Cek" />
+                        <Label layoutX="329.0" layoutY="86.0" prefHeight="32.0" prefWidth="273.0" text="Berisi tujuan pembelajaran,metode dan lain lain">
+                           <font>
+                              <Font name="Times New Roman" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="1212.0" layoutY="86.0" prefHeight="32.0" prefWidth="273.0" text="Berisi tujuan pembelajaran,metode dan lain lain">
+                           <font>
+                              <Font name="Times New Roman" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="773.0" layoutY="86.0" prefHeight="32.0" prefWidth="273.0" text="Berisi tujuan pembelajaran,metode dan lain lain">
+                           <font>
+                              <Font name="Times New Roman" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Label layoutX="36.0" layoutY="166.0" text="Rekomendasi Rencana Pembelajaran">
+                     <font>
+                        <Font name="Times New Roman Bold" size="28.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="185.0" fitWidth="333.0" layoutX="17.0" layoutY="523.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../example/dokumen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="185.0" fitWidth="333.0" layoutX="17.0" layoutY="804.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../example/dokumen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="185.0" fitWidth="333.0" layoutX="17.0" layoutY="1058.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../example/dokumen.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="273.0" layoutY="532.0" text="Budidaya Ikan Lele">
+                     <font>
+                        <Font name="Times New Roman Bold" size="28.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="285.0" layoutY="1069.0" text="Pengelolaan Sumber Daya Air">
+                     <font>
+                        <Font name="Times New Roman Bold" size="28.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="285.0" layoutY="821.0" text="Pelatihan UMKM">
+                     <font>
+                        <Font name="Times New Roman Bold" size="28.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="277.0" layoutY="672.0" mnemonicParsing="false" onAction="#Bcek4" text="Cek" />
+                  <Button layoutX="295.0" layoutY="1213.0" mnemonicParsing="false" onAction="#Bcek6" text="Cek" />
+                  <Button layoutX="295.0" layoutY="952.0" mnemonicParsing="false" onAction="#Bcek5" text="Cek" />
+                  <Label layoutX="273.0" layoutY="573.0" prefHeight="32.0" prefWidth="273.0" text="Berisi tujuan pembelajaran,metode dan lain lain">
+                     <font>
+                        <Font name="Times New Roman" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="276.0" layoutY="1118.0" prefHeight="32.0" prefWidth="273.0" text="Berisi tujuan pembelajaran,metode dan lain lain">
+                     <font>
+                        <Font name="Times New Roman" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="279.0" layoutY="876.0" prefHeight="32.0" prefWidth="273.0" text="Berisi tujuan pembelajaran,metode dan lain lain">
+                     <font>
+                        <Font name="Times New Roman" size="14.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="1097.0" layoutY="576.0" mnemonicParsing="false" onAction="#UploadRP" style="-fx-background-color: tan;" text="Upload" />
+                  <Button layoutX="731.0" layoutY="10.0" mnemonicParsing="false" onAction="#Bback" prefHeight="41.0" prefWidth="106.0" style="-fx-background-color: red;" text="Kembali" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

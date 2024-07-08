@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1538.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.TentangKamiController">
+   <children>
+      <HBox prefHeight="86.0" prefWidth="1561.0" style="-fx-background-color: #A0937D;">
+         <children>
+            <ImageView fitHeight="86.0" fitWidth="93.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../example/logo%20.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="80.0" />
+               </HBox.margin>
+            </ImageView>
+            <Label prefHeight="78.0" prefWidth="88.0" text="SIDARA" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="22.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Label>
+            <Pane prefHeight="106.0" prefWidth="230.0" />
+            <Button mnemonicParsing="false" onAction="#Beranda" style="-fx-background-color: transparant;" text="Beranda" textFill="WHITE">
+               <HBox.margin>
+                  <Insets left="20.0" right="50.0" top="30.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#Materi" style="-fx-background-color: transparant;" text="Materi" textFill="WHITE">
+               <HBox.margin>
+                  <Insets right="50.0" top="30.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#Karya" style="-fx-background-color: transparant;" text="Karya" textFill="WHITE">
+               <HBox.margin>
+                  <Insets right="50.0" top="30.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#TentangKami" style="-fx-background-color: transparant;" text="Tentang Kami" textFill="WHITE">
+               <HBox.margin>
+                  <Insets right="40.0" top="30.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#Notifikasi" style="-fx-background-color: transparant;" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="80.0" fitWidth="120.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../example/lonceng.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <HBox.margin>
+                  <Insets left="50.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#Profile" style="-fx-background-color: transparant;" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="80.0" fitWidth="120.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../example/Prrofile.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </HBox>
+      <Pane layoutX="-6.0" layoutY="122.0" prefHeight="210.0" prefWidth="1550.0" style="-fx-background-color: tan;">
+         <children>
+            <Text layoutX="509.0" layoutY="69.0" strokeType="INSIDE" strokeWidth="0.0" text="SIDARA merupakan Aplikasi inovatif yang dirancang untuk meningkatkan pengetahuan Tenaga Pendidik tentang pembelajaran berkelanjutan dan memberikan solusi untuk mengatasi tantangan pembelajaran berkelanjutan. Aplikasi ini juga bertujuan untuk membantu Tenaga Pendidik memahami dan menerapkan konsep-konsep pembelajaran berkelanjutan. Dalam Aplikasi ini memiliki berbagai fitur yang mendukung hal tersebut salah satunya seperti fitur Modul Interaktif, Rencana Pembelajaran, dan Studi Kasus" textAlignment="CENTER" wrappingWidth="601.5000000000002">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="702.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tentang Kami">
+               <font>
+                  <Font name="Times New Roman Bold" size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Label layoutX="196.0" layoutY="341.0" text="Modul Interaktif">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Label>
+      <Text layoutX="196.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kami menyediakan Modul Interaktif yang dirancang untuk melibatkan Tenaga Pendidik secara aktif dalam proses pembelajaran. Modul ini mencangkup materi-materi untuk membantu Tenaga Pendidik dalam memahami konsep-konsep pembelajaran berkelanjutan" wrappingWidth="535.7367706298828">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font></Text>
+      <Label layoutX="201.0" layoutY="432.0" text="Rencana Pembelajaran">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Label>
+      <Text layoutX="197.0" layoutY="473.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kami menyediakan Rencana Pembelajaran yang terstruktur dan terperinci untuk membantu para Tenaga pendidik merancang dan menerapkan pembelajaran berkelanjutan secara efektif" wrappingWidth="538.1366119384766">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font></Text>
+      <Label layoutX="195.0" layoutY="530.0" text="Studi Kasus">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Label>
+      <Text layoutX="198.0" layoutY="563.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kami menyediakan berbagai Studi Kasus yang mendetail dan kontekstual yang berfungsi sebagai sumber belajar yang praktis" wrappingWidth="530.9366912841797">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font></Text>
+      <Label layoutX="199.0" layoutY="609.0" text="Kolaborasi">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Label>
+      <Text layoutX="197.0" layoutY="644.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kami menyediakan fitur Kolaborasi untuk memfasilitasi kerja sama antar Tenaga Pendidik dalam membuat dan mengembangkan materi pembelajaran" wrappingWidth="539.7367706298828">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font></Text>
+      <Label layoutX="201.0" layoutY="694.0" text="Aksesibilitas dan Fleksibilitas">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Label>
+      <Text layoutX="200.0" layoutY="734.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tenaga Pendidik dapat mengakses materi Modul, Rencana Pembelajaran dan Studi Kasus kapan saja dan dimana saja. Sehingga memungkinkan mereka belajar sesuai dengan kecepatan dan jadwal mereka sendiri" wrappingWidth="530.1367492675781">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font></Text>
+      <ImageView fitHeight="70.0" fitWidth="76.0" layoutX="86.0" layoutY="344.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../example/buku%203.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="59.0" layoutX="93.0" layoutY="534.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../example/buku%201.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="88.0" layoutY="444.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../example/buku%202.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="74.0" fitWidth="76.0" layoutX="86.0" layoutY="614.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../example/Kolaborasi.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="86.0" fitWidth="78.0" layoutX="80.0" layoutY="707.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../example/Aksesbilitas.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="472.0" fitWidth="802.0" layoutX="784.0" layoutY="393.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../example/Pelajar.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
